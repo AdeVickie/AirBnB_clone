@@ -1,32 +1,26 @@
-/*
- * === Places class style ===
- */
- 
-.container .places {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.places h1{
+    font-size: 30px;
+    margin-bottom: 0;
 }
 
-.places h1 {
-  font-size: 30px;
-  flex: 0 0 100%;
-  margin: 0;
-  padding-top: 30px;
-  padding-left: 30px;
+.place {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.places article {
-  width: 390px;
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid #ff5a5f;
-  border-radius: 4px;
-  text-align: center;
-  align-items: flex-start;
+article {
+    display: flex;
+    width: 390px;
+    margin: 20px;
+    border: 1px #FF5A5F solid;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
-.places article h2 {
-  font-size: 30px;
-  margin: 0;
+article h2{
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
 }
